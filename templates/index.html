@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block title %}Is My Nail Bar Screwed? 💅{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <h1 class="hero-title">Is My Nail Bar Screwed? 💅</h1>
+  <p class="hero-sub">Find out if your local nail bar is hanging by a thread</p>
+
+  <form class="search-form" action="/search" method="get">
+    <input
+      class="search-input"
+      type="text"
+      name="q"
+      placeholder="Enter postcode or town, e.g. M1 or Manchester"
+      autocomplete="off"
+      required
+    />
+    <button class="btn-primary" type="submit">Find Out 🔍</button>
+  </form>
+</section>
+
+<section class="stats-row">
+  <div class="stat-card">
+    <span class="stat-number">{{ total_bars }}</span>
+    <span class="stat-label">Nail Bars Tracked</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-number">{{ pct_screwed }}%</span>
+    <span class="stat-label">Closed or At Risk</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-number">{{ towns_covered }}</span>
+    <span class="stat-label">Towns Covered</span>
+  </div>
+</section>
+
+<section class="tagline-section">
+  <p class="tagline">
+    UK nail bars are under serious pressure — rising business rates, high street decline,
+    post-pandemic fallout. We track the data so you don't have to find out the hard way
+    (turning up to a shuttered door with your acrylics in desperate need of a fill).
+  </p>
+</section>
+{% endblock %}

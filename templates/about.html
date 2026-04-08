@@ -1,0 +1,72 @@
+{% extends "layout.html" %}
+
+{% block title %}About – Is My Nail Bar Screwed? 💅{% endblock %}
+
+{% block content %}
+<div class="about-page">
+  <h1>About This Site</h1>
+
+  <div class="about-block">
+    <h2>What is this?</h2>
+    <p>
+      <strong>Is My Nail Bar Screwed?</strong> is a no-frills tool for finding out whether
+      your favourite nail bar is still standing, teetering on the edge, or has already gone
+      the way of the dodo. We track hundreds of UK nail bars using publicly available
+      business rates data, so you don't turn up clutching your chipped gel polish only to
+      find a boarded-up shopfront.
+    </p>
+  </div>
+
+  <div class="about-block">
+    <h2>What is the Screwed Score™?</h2>
+    <p>
+      The <strong>Screwed Score</strong> is a proprietary (read: we made it up, but we made
+      it up <em>responsibly</em>) risk index from 1 to 100. Higher score = more screwed.
+      It's calculated using a heady cocktail of:
+    </p>
+    <ul class="about-list">
+      <li>📊 <strong>Rateable value vs. estimated turnover</strong> — if the rates are
+          eating their lunch, that's a red flag.</li>
+      <li>🏚️ <strong>Local vacancy rate</strong> — a nail bar surrounded by empty units
+          is a nail bar on borrowed time.</li>
+      <li>📅 <strong>Last verified open date</strong> — the longer ago we checked, the
+          more nervous we are.</li>
+      <li>😬 <strong>Status indicators</strong> — "At Risk" means we're sweating. "Closed"
+          means it's over. "Permanently Closed" means pour one out.</li>
+    </ul>
+    <p>
+      A score of 1–30 means they're probably fine — keep booking those appointments.
+      31–60 is the nervous zone. 61–80 and we'd start making alternative arrangements.
+      80+ and honestly, maybe ring ahead before you get on the bus.
+    </p>
+  </div>
+
+  <div class="about-block">
+    <h2>Where does the data come from?</h2>
+    <p>
+      Business rates data is sourced from the
+      <strong>Valuation Office Agency (VOA)</strong> — publicly available under the
+      Open Government Licence. Rateable values are the VOA's assessment of a property's
+      annual rental value, used to calculate business rates bills. We combine this with
+      publicly available Companies House data and our own field verification.
+    </p>
+  </div>
+
+  <div class="about-block disclaimer">
+    <h2>⚠️ Disclaimer</h2>
+    <p>
+      This site is for informational purposes only. Data may be out of date, incomplete,
+      or occasionally just wrong — we're doing our best here, not running MI6. Don't
+      make major life decisions based on a Screwed Score. If you run a nail bar and think
+      we've got your info wrong, we'd genuinely love to hear from you.
+    </p>
+    <p>
+      We don't want nail bars to close. We just think people deserve to know what's going on.
+    </p>
+  </div>
+</div>
+
+<div class="back-link">
+  <a href="/" class="btn-secondary">← Back to Search</a>
+</div>
+{% endblock %}
