@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+{% block title %}About — Is My Nail Bar Screwed?{% endblock %}
+{% block content %}
+<h1>About Is My Nail Bar Screwed?</h1>
+
+<section class="about-section">
+  <h2>What is this site?</h2>
+  <p>
+    <strong>Is My Nail Bar Screwed?</strong> helps you find out how hard UK business rates are hitting nail bars in
+    your area. Business rates are a tax on non-domestic properties — and for nail bars operating on tight margins,
+    a high rateable value can make the difference between surviving and shutting up shop.
+  </p>
+</section>
+
+<section class="about-section">
+  <h2>What is the Screwed Score?</h2>
+  <p>
+    The <strong>Screwed Score</strong> is calculated as:
+  </p>
+  <div class="formula">
+    <code>Screwed Score = (Rateable Value ÷ Estimated Turnover) × 100</code>
+  </div>
+  <p>
+    A score of 100 means the rateable value equals the estimated annual turnover — which is already very high.
+    Scores above 110 indicate the nail bar is paying disproportionately large business rates relative to what
+    it likely earns.
+  </p>
+
+  <div class="score-legend">
+    <div class="legend-item badge-success">✅ Under 95 — Doing alright</div>
+    <div class="legend-item badge-info">🔵 95–109 — A bit screwed</div>
+    <div class="legend-item badge-warning">🟡 110–124 — Pretty screwed</div>
+    <div class="legend-item badge-danger">🔴 125+ — Royally screwed</div>
+  </div>
+</section>
+
+<section class="about-section">
+  <h2>Where does the data come from?</h2>
+  <p>
+    Rateable values are drawn from the <strong>Valuation Office Agency (VOA)</strong> business rates dataset,
+    which is published as open data by the UK government. Turnover estimates are based on industry averages for
+    nail bars of different sizes in different locations.
+  </p>
+  <p>
+    Data is provided for informational purposes only and is not official financial or legal advice.
+    Rateable values change with revaluations — the most recent was in 2023.
+  </p>
+</section>
+
+<section class="about-section">
+  <h2>Why nail bars?</h2>
+  <p>
+    The nail bar industry has grown rapidly in the UK over the past decade, but many nail bars operate on very
+    slim margins. High-street locations with elevated rateable values can result in annual rates bills that
+    represent a significant proportion of turnover — leaving owners feeling, well, <em>screwed</em>.
+  </p>
+</section>
+
+<section class="about-section">
+  <h2>Contact &amp; feedback</h2>
+  <p>
+    This is an open-source project. Contributions and data corrections are welcome via
+    <a href="https://github.com/osde8info/ismynailbarscrewed" target="_blank" rel="noopener noreferrer">GitHub</a>.
+  </p>
+</section>
+{% endblock %}

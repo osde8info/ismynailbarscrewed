@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block title %}Results for "{{ query }}" — Is My Nail Bar Screwed?{% endblock %}
+{% block content %}
+<h1>Results for <span class="highlight">"{{ query }}"</span></h1>
+
+{% if results %}
+<p class="result-count">Found <strong>{{ count }}</strong> nail bar{{ 's' if count != 1 else '' }}.</p>
+
+<div class="results-grid">
+  {% for r in results %}
+  <div class="card card-{{ r.badge }}">
+    <div class="card-header">
+      <span class="card-name">{{ r.name }}</span>
+      <span class="badge badge-{{ r.badge }}">{{ r.label }}</span>
+    </div>
+    <div class="card-body">
+      <p class="card-address">📍 {{ r.address }}, {{ r.postcode }}</p>
+      <div class="card-stats">
+        <div class="stat">
+          <span class="stat-label">Rateable Value</span>
+          <span class="stat-value">£{{ "{:,}".format(r.rateable_value) }}</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Screwed Score</span>
+          <span class="stat-value score-{{ r.badge }}">{{ r.screwed_score }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% else %}
+<div class="no-results">
+  <p>😕 No nail bars found for <strong>"{{ query }}"</strong>.</p>
+  <p>Try a different postcode or town name.</p>
+  <a href="/" class="btn-back">← Back to search</a>
+</div>
+{% endif %}
+
+<p class="back-link"><a href="/">← New search</a></p>
+{% endblock %}

@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block title %}Is My Nail Bar Screwed?{% endblock %}
+{% block content %}
+<section class="hero">
+  <h1>💅 Is My Nail Bar Screwed?</h1>
+  <p class="tagline">Find out how hard UK business rates are hitting nail bars near you.</p>
+
+  <form class="search-form" action="/search" method="get">
+    <input
+      type="text"
+      name="q"
+      class="search-input"
+      placeholder="Enter postcode or town (e.g. SW1A, London, Manchester)"
+      autocomplete="off"
+      autofocus
+    />
+    <button type="submit" class="search-btn">Search 🔍</button>
+  </form>
+
+  {% if error %}
+  <p class="error-msg">{{ error }}</p>
+  {% endif %}
+</section>
+
+<section class="explainer">
+  <h2>What is this?</h2>
+  <p>
+    UK nail bars pay business rates based on their property's <strong>rateable value</strong> — a government estimate of
+    how much the property could be rented for. When that rateable value is high relative to turnover, the nail bar
+    is <em>screwed</em>.
+  </p>
+  <p>
+    Our <strong>Screwed Score</strong> compares rateable value against estimated turnover.
+    A score over 110 means the nail bar is paying over the odds in rates.
+  </p>
+
+  <div class="score-legend">
+    <div class="legend-item badge-success">✅ Under 95 — Doing alright</div>
+    <div class="legend-item badge-info">🔵 95–109 — A bit screwed</div>
+    <div class="legend-item badge-warning">🟡 110–124 — Pretty screwed</div>
+    <div class="legend-item badge-danger">🔴 125+ — Royally screwed</div>
+  </div>
+</section>
+{% endblock %}

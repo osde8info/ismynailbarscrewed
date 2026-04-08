@@ -1,0 +1,103 @@
+name,address,postcode,rateable_value,estimated_turnover,screwed_score,region,town,lat,lon
+Glamour Nails,12 High Street,SW1A 1AA,42000,38000,110,London,Westminster,51.5014,-0.1419
+Pink Petal Nails,45 Oxford Street,W1D 1BS,68000,55000,124,London,Westminster,51.5152,-0.1418
+Nail Heaven,3 King Street,EC2V 8AS,29000,31000,94,London,City of London,51.5148,-0.0943
+Pretty Claws,78 Victoria Street,SW1E 6QQ,55000,42000,131,London,Westminster,51.4978,-0.1421
+Nail Bar Express,22 Brixton Road,SW9 6BU,18500,22000,84,London,Lambeth,51.4613,-0.1143
+Luxe Nails,100 Kings Road,SW3 4TZ,72000,58000,124,London,Chelsea,51.4882,-0.1701
+Crystal Nails,5 Green Lane,N13 4JA,12000,18000,67,London,Enfield,51.6248,-0.1074
+Nail Studio,34 Tottenham Court Rd,W1T 2EL,45000,40000,113,London,Camden,51.5208,-0.1341
+The Nail Place,8 Camden High St,NW1 0JH,38000,35000,109,London,Camden,51.5393,-0.1426
+Sparkle Nails,15 Islington High St,N1 9LQ,31000,28000,111,London,Islington,51.5362,-0.1042
+Top Coat Nails,67 Hackney Road,E2 7NX,22000,25000,88,London,Hackney,51.5281,-0.0724
+Nail Boutique,9 Chiswick High Rd,W4 1LY,28000,32000,88,London,Hounslow,51.4956,-0.2683
+Glitter Nails,44 Streatham High Rd,SW16 1BY,16000,20000,80,London,Lambeth,51.4279,-0.1248
+Diamond Nails,23 Bromley High St,BR1 1EX,20000,24000,83,London,Bromley,51.4056,-0.0133
+Pure Nails,88 Croydon High St,CR0 1QU,15000,19000,79,London,Croydon,51.3762,-0.0982
+Neon Nails,7 Clapham High St,SW4 7TS,34000,29000,117,London,Lambeth,51.4628,-0.1384
+The Nail Bar,14 Wimbledon High St,SW19 5DX,41000,37000,111,London,Merton,51.4214,-0.2076
+Velvet Nails,3 Richmond Road,TW10 6QX,26000,30000,87,London,Richmond,51.4636,-0.3038
+Elite Nails,55 Notting Hill Gate,W11 3HX,63000,52000,121,London,Kensington,51.5090,-0.1977
+Nail Garden,18 Stoke Newington Church St,N16 0LU,24000,27000,89,London,Hackney,51.5625,-0.0766
+Royal Nails,1 Deansgate,M3 2BW,35000,31000,113,Manchester,Manchester,53.4791,-2.2478
+Pink Rose Nails,25 Market Street,M1 1PW,28000,26000,108,Manchester,Manchester,53.4831,-2.2385
+Nail Lounge,7 Oldham Street,M1 1JE,18000,22000,82,Manchester,Manchester,53.4836,-2.2333
+Chic Nails,30 Piccadilly,M1 1HP,42000,36000,117,Manchester,Manchester,53.4808,-2.2374
+Gloss Nails,12 Oxford Road,M1 5QA,25000,28000,89,Manchester,Manchester,53.4739,-2.2346
+Urban Nails,5 Northern Quarter,M4 1DA,20000,24000,83,Manchester,Manchester,53.4854,-2.2359
+Nail Haven,88 Wilmslow Road,M20 3BW,16000,19000,84,Manchester,Didsbury,53.4124,-2.2197
+Gold Nails,44 Lord Street,L2 1TD,22000,24000,92,Liverpool,Liverpool,53.4058,-2.9869
+Nail Palace,15 Bold Street,L1 4DN,18000,20000,90,Liverpool,Liverpool,53.4014,-2.9804
+Prestige Nails,6 Church Street,L1 3BG,30000,27000,111,Liverpool,Liverpool,53.4075,-2.9797
+Fabulous Nails,99 Park Row,LS1 5HN,28000,25000,112,Leeds,Leeds,53.7975,-1.5492
+Nail Vision,22 Briggate,LS1 6EQ,38000,33000,115,Leeds,Leeds,53.7980,-1.5412
+La Belle Nails,8 Albion Street,LS1 6JL,31000,29000,107,Leeds,Leeds,53.7967,-1.5452
+Coral Nails,45 The Headrow,LS1 6PT,26000,28000,93,Leeds,Leeds,53.7997,-1.5497
+Cute Nails,17 New Street,B2 4RL,35000,30000,117,Birmingham,Birmingham,52.4800,-1.8990
+Glam Nails,5 Corporation Street,B4 6QQ,42000,37000,114,Birmingham,Birmingham,52.4823,-1.8943
+Nail Dreams,28 High Street,B4 7SL,24000,26000,92,Birmingham,Birmingham,52.4782,-1.8959
+Noir Nails,3 Colmore Row,B3 2DA,55000,46000,120,Birmingham,Birmingham,52.4835,-1.8979
+Pearl Nails,67 Broad Street,B1 2HF,38000,34000,112,Birmingham,Birmingham,52.4757,-1.9085
+Silk Nails,14 Union Street,AB11 5BU,16000,18000,89,Aberdeen,Aberdeen,57.1497,-2.0943
+Highland Nails,5 George Street,AB25 1HZ,14000,17000,82,Aberdeen,Aberdeen,57.1503,-2.1006
+Pinky Nails,8 Princes Street,EH2 2ER,45000,38000,118,Edinburgh,Edinburgh,55.9524,-3.1894
+Nail Art Studio,22 Royal Mile,EH1 1QG,38000,34000,112,Edinburgh,Edinburgh,55.9496,-3.1910
+Polished Nails,10 Buchanan Street,G1 3HJ,40000,36000,111,Glasgow,Glasgow,55.8623,-4.2517
+Gel Nails Plus,33 Sauchiehall Street,G2 3AT,28000,25000,112,Glasgow,Glasgow,55.8651,-4.2619
+The Nail Hut,7 Queen Street,CF10 2BY,22000,24000,92,Cardiff,Cardiff,51.4798,-3.1792
+Cardiff Nails,15 St Mary Street,CF10 1AA,30000,27000,111,Cardiff,Cardiff,51.4773,-3.1781
+Glamourous Nails,18 Northgate,CH1 2HT,18000,20000,90,Chester,Chester,53.1906,-2.8913
+Chester Nails,3 Eastgate Street,CH1 1LG,24000,22000,109,Chester,Chester,53.1906,-2.8888
+Brilliant Nails,12 Stonegate,YO1 8AS,20000,22000,91,York,York,53.9614,-1.0814
+York Nail Bar,5 Goodramgate,YO1 7LG,15000,18000,83,York,York,53.9622,-1.0804
+Nail Perfection,8 Queen Street,OX1 1ET,32000,28000,114,Oxford,Oxford,51.7513,-1.2580
+Oxford Nails,23 George Street,OX1 2AU,28000,26000,108,Oxford,Oxford,51.7527,-1.2590
+Cambridge Nails,17 King Street,CB1 1LH,30000,27000,111,Cambridge,Cambridge,52.2053,0.1218
+Varsity Nails,4 Sidney Street,CB2 3HQ,25000,24000,104,Cambridge,Cambridge,52.2050,0.1198
+Nail Therapy,9 Winchester High St,SO23 9GH,22000,23000,96,Winchester,Winchester,51.0635,-1.3116
+Brighton Nails,33 North Street,BN1 1RH,38000,32000,119,Brighton,Brighton,50.8218,-0.1400
+Seaside Nails,6 West Street,BN1 2RD,28000,26000,108,Brighton,Brighton,50.8224,-0.1437
+Royal Pavilion Nails,15 Old Steine,BN1 1EJ,22000,25000,88,Brighton,Brighton,50.8229,-0.1369
+Bath Nails,10 Milsom Street,BA1 1DD,35000,30000,117,Bath,Bath,51.3835,-2.3627
+Roman Nails,7 Bath Street,BA1 1SN,28000,26000,108,Bath,Bath,51.3803,-2.3618
+Nail Emporium,14 High Street,EX4 3LN,18000,20000,90,Exeter,Exeter,50.7236,-3.5275
+Exeter Nails,3 Gandy Street,EX4 3LS,15000,17000,88,Exeter,Exeter,50.7228,-3.5303
+Harbour Nails,22 Fore Street,PL1 1JU,20000,22000,91,Plymouth,Plymouth,50.3714,-4.1427
+Plymouth Nails,8 Cornwall Street,PL1 1NJ,18000,21000,86,Plymouth,Plymouth,50.3712,-4.1441
+Bristol Nails,5 Broadmead,BS1 3EE,42000,36000,117,Bristol,Bristol,51.4569,-2.5912
+Clifton Nails,18 Queens Road,BS8 1QU,35000,31000,113,Bristol,Bristol,51.4576,-2.6135
+Harbour Nails Bristol,7 Harbourside,BS1 5TY,28000,27000,104,Bristol,Bristol,51.4501,-2.5973
+Nottingham Nails,12 Bridlesmith Gate,NG1 2GS,30000,27000,111,Nottingham,Nottingham,52.9536,-1.1457
+Lace Market Nails,5 High Pavement,NG1 1HF,22000,24000,92,Nottingham,Nottingham,52.9522,-1.1462
+Sheffield Nails,8 Fargate,S1 2HE,28000,26000,108,Sheffield,Sheffield,53.3818,-1.4684
+Steel City Nails,25 Division Street,S1 4GF,22000,24000,92,Sheffield,Sheffield,53.3793,-1.4726
+Coventry Nails,11 Broadgate,CV1 1NG,25000,23000,109,Coventry,Coventry,52.4072,-1.5100
+Cathedral Nails,3 Priory Row,CV1 5EX,18000,20000,90,Coventry,Coventry,52.4071,-1.5113
+Norwich Nails,14 London Street,NR2 1JD,22000,24000,92,Norwich,Norwich,52.6285,1.2940
+Castle Nails,7 Castle Meadow,NR1 3DD,18000,21000,86,Norwich,Norwich,52.6268,1.2966
+Leicester Nails,5 Gallowtree Gate,LE1 1DD,28000,25000,112,Leicester,Leicester,52.6361,-1.1316
+Highcross Nails,12 Haymarket,LE1 3GD,22000,24000,92,Leicester,Leicester,52.6383,-1.1350
+Newcastle Nails,10 Northumberland Street,NE1 7DQ,35000,30000,117,Newcastle,Newcastle,54.9759,-1.6131
+Quayside Nails,6 Quayside,NE1 3DX,28000,26000,108,Newcastle,Newcastle,54.9690,-1.6104
+Grainger Nails,18 Grainger Street,NE1 5JQ,22000,24000,92,Newcastle,Newcastle,54.9720,-1.6178
+Derby Nails,9 Sadler Gate,DE1 3NQ,20000,22000,91,Derby,Derby,52.9225,-1.4765
+Sunderland Nails,4 High Street West,SR1 3EX,15000,18000,83,Sunderland,Sunderland,54.9062,-1.3829
+Stoke Nails,7 Stafford Street,ST1 1NA,16000,18000,89,Stoke,Stoke-on-Trent,53.0284,-2.1794
+Wolverhampton Nails,12 Dudley Street,WV1 3ER,20000,22000,91,Wolverhampton,Wolverhampton,52.5847,-2.1277
+Nail Culture,45 Commercial Road,E1 1LG,32000,28000,114,London,Tower Hamlets,51.5149,-0.0593
+East End Nails,8 Roman Road,E2 0HU,18000,20000,90,London,Tower Hamlets,51.5267,-0.0437
+Canary Nails,3 Canary Wharf,E14 5AB,58000,48000,121,London,Tower Hamlets,51.5051,-0.0210
+Docklands Nails,15 West India Quay,E14 4AJ,42000,37000,114,London,Tower Hamlets,51.5074,-0.0199
+Marylebone Nails,20 Marylebone High St,W1U 4PL,65000,53000,123,London,Westminster,51.5190,-0.1489
+Mayfair Nails,5 Bond Street,W1S 1SB,88000,68000,129,London,Westminster,51.5130,-0.1446
+Knightsbridge Nails,12 Brompton Road,SW3 1ER,95000,72000,132,London,Kensington,51.4990,-0.1622
+Belgravia Nails,7 Eaton Square,SW1W 9BE,78000,60000,130,London,Westminster,51.4966,-0.1555
+Soho Nails,33 Old Compton Street,W1D 5JR,72000,58000,124,London,Westminster,51.5132,-0.1302
+Covent Garden Nails,4 Neal Street,WC2H 9PR,68000,55000,124,London,Camden,51.5130,-0.1246
+Fitzrovia Nails,10 Charlotte Street,W1T 2LS,52000,44000,118,London,Camden,51.5194,-0.1336
+Bloomsbury Nails,8 Marchmont Street,WC1N 1AB,38000,34000,112,London,Camden,51.5248,-0.1242
+Shoreditch Nails,22 Shoreditch High St,E1 6PG,45000,39000,115,London,Hackney,51.5228,-0.0772
+Hoxton Nails,7 Hoxton Square,N1 6PB,35000,32000,109,London,Hackney,51.5300,-0.0820
+Dalston Nails,18 Kingsland High St,E8 2NS,22000,24000,92,London,Hackney,51.5484,-0.0762
+Peckham Nails,5 Peckham High St,SE15 5EB,16000,19000,84,London,Southwark,51.4739,-0.0693
+Brixton Nails,40 Atlantic Road,SW9 8JA,20000,22000,91,London,Lambeth,51.4624,-0.1137
