@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_from_directory
 
 app = Flask(__name__)
 
@@ -51,6 +51,11 @@ def leaderboard():
 @app.route("/about")
 def about():
     return render_template("about.html")
+
+
+@app.route("/robots.txt")
+def robots():
+    return send_from_directory(app.static_folder, "robots.txt")
 
 
 if __name__ == "__main__":
