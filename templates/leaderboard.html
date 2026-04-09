@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block title %}Leaderboard — Most Screwed Nail Bars in the UK{% endblock %}
+{% block content %}
+<h1>🏆 Most Screwed Nail Bars in the UK</h1>
+<p class="subtitle">Top 100 nail bars ranked by Screwed Score — the higher the score, the more they're getting hammered by business rates.</p>
+
+<div class="table-wrapper">
+  <table class="leaderboard-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Town</th>
+        <th>Postcode</th>
+        <th>Rateable Value</th>
+        <th>Screwed Score</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in rows %}
+      <tr class="row-{{ row.badge }}">
+        <td class="rank">{{ row.rank }}</td>
+        <td class="name">{{ row.name }}</td>
+        <td>{{ row.town }}</td>
+        <td><code>{{ row.postcode }}</code></td>
+        <td>£{{ "{:,}".format(row.rateable_value) }}</td>
+        <td class="score score-{{ row.badge }}"><strong>{{ row.screwed_score }}</strong></td>
+        <td><span class="badge badge-{{ row.badge }}">{{ row.label }}</span></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
