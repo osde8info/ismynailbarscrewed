@@ -4,48 +4,100 @@ from flask import Flask, render_template, request, send_from_directory
 
 app = Flask(__name__)
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-df = pd.read_csv(os.path.join(BASE_DIR, "data", "nailbars.csv"))
+DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "nailbars.csv")
 
-df["_postcode_norm"] = df["postcode"].str.replace(" ", "", regex=False).str.lower()
-df["_town_lower"] = df["town"].str.lower()
 
-total_bars = len(df)
-closed_at_risk = len(df[df["status"].isin(["Closed", "At Risk", "Permanently Closed"])])
-pct_screwed = round((closed_at_risk / total_bars) * 100) if total_bars else 0
-towns_covered = df["town"].nunique()
+def load_data():
+    df = pd.read_csv(DATA_PATH)
+    return df
+
+
+def screwed_label(score):
+    if score >= 125:
+        return "royally screwed", "danger"
+    if score >= 110:
+        return "pretty screwed", "warning"
+    if score >= 95:
+        return "a bit screwed", "info"
+    return "doing alright", "success"
 
 
 @app.route("/")
 def index():
-    return render_template(
-        "index.html",
-        total_bars=total_bars,
-        pct_screwed=pct_screwed,
-        towns_covered=towns_covered,
-    )
+    return render_template("index.html")
 
 
 @app.route("/search")
 def search():
-    query = request.args.get("q", "").strip()
+    query = request.args.get("q", "").strip().upper()
     if not query:
-        results = []
-        count = 0
-    else:
-        q_norm = query.replace(" ", "").lower()
-        postcode_match = df["_postcode_norm"] == q_norm
-        town_match = df["_town_lower"].str.contains(query.lower(), regex=False)
-        matched = df[postcode_match | town_match]
-        results = matched.to_dict(orient="records")
-        count = len(results)
-    return render_template("results.html", query=query, results=results, count=count)
+        return render_template("index.html", error="Please enter a postcode or town.")
+
+    df = load_data()
+    # Match on postcode prefix or full postcode or town (case-insensitive)
+    mask = (
+        df["postcode"].str.upper().str.startswith(query)
+        | df["postcode"].str.upper().str.replace(" ", "").str.startswith(query.replace(" ", ""))
+        | df["town"].str.upper().str.contains(query, na=False)
+        | df["region"].str.upper().str.contains(query, na=False)
+    )
+    results = df[mask].copy()
+
+    if results.empty:
+        return render_template(
+            "results.html",
+            query=query,
+            results=[],
+            count=0,
+        )
+
+    results = results.sort_values("screwed_score", ascending=False)
+    rows = []
+    for _, row in results.iterrows():
+        label, badge = screwed_label(row["screwed_score"])
+        rows.append(
+            {
+                "name": row["name"],
+                "address": row["address"],
+                "postcode": row["postcode"],
+                "town": row["town"],
+                "rateable_value": row["rateable_value"],
+                "screwed_score": row["screwed_score"],
+                "label": label,
+                "badge": badge,
+            }
+        )
+
+    return render_template(
+        "results.html",
+        query=query,
+        results=rows,
+        count=len(rows),
+    )
 
 
 @app.route("/leaderboard")
 def leaderboard():
-    top20 = df.nlargest(20, "screwed_score").to_dict(orient="records")
-    return render_template("leaderboard.html", leaderboard=top20)
+    df = load_data()
+    top = df.sort_values("screwed_score", ascending=False).head(100).copy()
+    rows = []
+    for rank, (_, row) in enumerate(top.iterrows(), start=1):
+        label, badge = screwed_label(row["screwed_score"])
+        rows.append(
+            {
+                "rank": rank,
+                "name": row["name"],
+                "address": row["address"],
+                "postcode": row["postcode"],
+                "town": row["town"],
+                "region": row["region"],
+                "rateable_value": row["rateable_value"],
+                "screwed_score": row["screwed_score"],
+                "label": label,
+                "badge": badge,
+            }
+        )
+    return render_template("leaderboard.html", rows=rows)
 
 
 @app.route("/about")

@@ -1,49 +1,42 @@
 {% extends "layout.html" %}
-
-{% block title %}Results for "{{ query }}" – Is My Nail Bar Screwed? 💅{% endblock %}
-
+{% block title %}Results for "{{ query }}" — Is My Nail Bar Screwed?{% endblock %}
 {% block content %}
-<div class="page-header">
-  <h1>Results for <span class="query-highlight">"{{ query }}"</span></h1>
-  <p class="result-count">
-    {% if count > 0 %}
-      Found <strong>{{ count }}</strong> nail bar{{ 's' if count != 1 else '' }}
-    {% else %}
-      No nail bars found. Maybe they've all legged it. 🏃
-    {% endif %}
-  </p>
-</div>
+<h1>Results for <span class="highlight">"{{ query }}"</span></h1>
 
 {% if results %}
-  <div class="results-grid">
-    {% for bar in results %}
-      <div class="result-card">
-        <div class="card-header">
-          <h2 class="card-name">{{ bar.name }}</h2>
-          <span class="status-badge status-{{ bar.status | lower | replace(' ', '-') }}">
-            {{ bar.status }}
-          </span>
+<p class="result-count">Found <strong>{{ count }}</strong> nail bar{{ 's' if count != 1 else '' }}.</p>
+
+<div class="results-grid">
+  {% for r in results %}
+  <div class="card card-{{ r.badge }}">
+    <div class="card-header">
+      <span class="card-name">{{ r.name }}</span>
+      <span class="badge badge-{{ r.badge }}">{{ r.label }}</span>
+    </div>
+    <div class="card-body">
+      <p class="card-address">📍 {{ r.address }}, {{ r.postcode }}</p>
+      <div class="card-stats">
+        <div class="stat">
+          <span class="stat-label">Rateable Value</span>
+          <span class="stat-value">£{{ "{:,}".format(r.rateable_value) }}</span>
         </div>
-
-        <p class="card-address">📍 {{ bar.address }}, {{ bar.postcode }}</p>
-        <p class="card-town">🏙️ {{ bar.town }}</p>
-
-        <div class="screwed-score-section">
-          <div class="score-label">
-            Screwed Score: <strong>{{ bar.screwed_score }}/100</strong>
-          </div>
-          <div class="progress-bar-track">
-            <div class="progress-bar-fill" style="width: {{ bar.screwed_score }}%"></div>
-          </div>
+        <div class="stat">
+          <span class="stat-label">Screwed Score</span>
+          <span class="stat-value score-{{ r.badge }}">{{ r.screwed_score }}</span>
         </div>
-
-        <p class="card-last-checked">Last checked: {{ bar.last_checked }}</p>
       </div>
-    {% endfor %}
+    </div>
   </div>
+  {% endfor %}
+</div>
+
+{% else %}
+<div class="no-results">
+  <p>😕 No nail bars found for <strong>"{{ query }}"</strong>.</p>
+  <p>Try a different postcode or town name.</p>
+  <a href="/" class="btn-back">← Back to search</a>
+</div>
 {% endif %}
 
-<div class="back-link">
-  <a href="/" class="btn-secondary">← Back to Search</a>
-</div>
+<p class="back-link"><a href="/">← New search</a></p>
 {% endblock %}

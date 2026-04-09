@@ -1,45 +1,44 @@
 {% extends "layout.html" %}
-
-{% block title %}Is My Nail Bar Screwed? 💅{% endblock %}
-
+{% block title %}Is My Nail Bar Screwed?{% endblock %}
 {% block content %}
 <section class="hero">
-  <h1 class="hero-title">Is My Nail Bar Screwed? 💅</h1>
-  <p class="hero-sub">Find out if your local nail bar is hanging by a thread</p>
+  <h1>💅 Is My Nail Bar Screwed?</h1>
+  <p class="tagline">Find out how hard UK business rates are hitting nail bars near you.</p>
 
   <form class="search-form" action="/search" method="get">
     <input
-      class="search-input"
       type="text"
       name="q"
-      placeholder="Enter postcode or town, e.g. M1 or Manchester"
+      class="search-input"
+      placeholder="Enter postcode or town (e.g. SW1A, London, Manchester)"
       autocomplete="off"
-      required
+      autofocus
     />
-    <button class="btn-primary" type="submit">Find Out 🔍</button>
+    <button type="submit" class="search-btn">Search 🔍</button>
   </form>
+
+  {% if error %}
+  <p class="error-msg">{{ error }}</p>
+  {% endif %}
 </section>
 
-<section class="stats-row">
-  <div class="stat-card">
-    <span class="stat-number">{{ total_bars }}</span>
-    <span class="stat-label">Nail Bars Tracked</span>
-  </div>
-  <div class="stat-card">
-    <span class="stat-number">{{ pct_screwed }}%</span>
-    <span class="stat-label">Closed or At Risk</span>
-  </div>
-  <div class="stat-card">
-    <span class="stat-number">{{ towns_covered }}</span>
-    <span class="stat-label">Towns Covered</span>
-  </div>
-</section>
-
-<section class="tagline-section">
-  <p class="tagline">
-    UK nail bars are under serious pressure — rising business rates, high street decline,
-    post-pandemic fallout. We track the data so you don't have to find out the hard way
-    (turning up to a shuttered door with your acrylics in desperate need of a fill).
+<section class="explainer">
+  <h2>What is this?</h2>
+  <p>
+    UK nail bars pay business rates based on their property's <strong>rateable value</strong> — a government estimate of
+    how much the property could be rented for. When that rateable value is high relative to turnover, the nail bar
+    is <em>screwed</em>.
   </p>
+  <p>
+    Our <strong>Screwed Score</strong> compares rateable value against estimated turnover.
+    A score over 110 means the nail bar is paying over the odds in rates.
+  </p>
+
+  <div class="score-legend">
+    <div class="legend-item badge-success">✅ Under 95 — Doing alright</div>
+    <div class="legend-item badge-info">🔵 95–109 — A bit screwed</div>
+    <div class="legend-item badge-warning">🟡 110–124 — Pretty screwed</div>
+    <div class="legend-item badge-danger">🔴 125+ — Royally screwed</div>
+  </div>
 </section>
 {% endblock %}

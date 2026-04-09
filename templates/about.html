@@ -1,72 +1,66 @@
 {% extends "layout.html" %}
-
-{% block title %}About – Is My Nail Bar Screwed? 💅{% endblock %}
-
+{% block title %}About — Is My Nail Bar Screwed?{% endblock %}
 {% block content %}
-<div class="about-page">
-  <h1>About This Site</h1>
+<h1>About Is My Nail Bar Screwed?</h1>
 
-  <div class="about-block">
-    <h2>What is this?</h2>
-    <p>
-      <strong>Is My Nail Bar Screwed?</strong> is a no-frills tool for finding out whether
-      your favourite nail bar is still standing, teetering on the edge, or has already gone
-      the way of the dodo. We track hundreds of UK nail bars using publicly available
-      business rates data, so you don't turn up clutching your chipped gel polish only to
-      find a boarded-up shopfront.
-    </p>
+<section class="about-section">
+  <h2>What is this site?</h2>
+  <p>
+    <strong>Is My Nail Bar Screwed?</strong> helps you find out how hard UK business rates are hitting nail bars in
+    your area. Business rates are a tax on non-domestic properties — and for nail bars operating on tight margins,
+    a high rateable value can make the difference between surviving and shutting up shop.
+  </p>
+</section>
+
+<section class="about-section">
+  <h2>What is the Screwed Score?</h2>
+  <p>
+    The <strong>Screwed Score</strong> is calculated as:
+  </p>
+  <div class="formula">
+    <code>Screwed Score = (Rateable Value ÷ Estimated Turnover) × 100</code>
   </div>
+  <p>
+    A score of 100 means the rateable value equals the estimated annual turnover — which is already very high.
+    Scores above 110 indicate the nail bar is paying disproportionately large business rates relative to what
+    it likely earns.
+  </p>
 
-  <div class="about-block">
-    <h2>What is the Screwed Score™?</h2>
-    <p>
-      The <strong>Screwed Score</strong> is a proprietary (read: we made it up, but we made
-      it up <em>responsibly</em>) risk index from 1 to 100. Higher score = more screwed.
-      It's calculated using a heady cocktail of:
-    </p>
-    <ul class="about-list">
-      <li>📊 <strong>Rateable value vs. estimated turnover</strong> — if the rates are
-          eating their lunch, that's a red flag.</li>
-      <li>🏚️ <strong>Local vacancy rate</strong> — a nail bar surrounded by empty units
-          is a nail bar on borrowed time.</li>
-      <li>📅 <strong>Last verified open date</strong> — the longer ago we checked, the
-          more nervous we are.</li>
-      <li>😬 <strong>Status indicators</strong> — "At Risk" means we're sweating. "Closed"
-          means it's over. "Permanently Closed" means pour one out.</li>
-    </ul>
-    <p>
-      A score of 1–30 means they're probably fine — keep booking those appointments.
-      31–60 is the nervous zone. 61–80 and we'd start making alternative arrangements.
-      80+ and honestly, maybe ring ahead before you get on the bus.
-    </p>
+  <div class="score-legend">
+    <div class="legend-item badge-success">✅ Under 95 — Doing alright</div>
+    <div class="legend-item badge-info">🔵 95–109 — A bit screwed</div>
+    <div class="legend-item badge-warning">🟡 110–124 — Pretty screwed</div>
+    <div class="legend-item badge-danger">🔴 125+ — Royally screwed</div>
   </div>
+</section>
 
-  <div class="about-block">
-    <h2>Where does the data come from?</h2>
-    <p>
-      Business rates data is sourced from the
-      <strong>Valuation Office Agency (VOA)</strong> — publicly available under the
-      Open Government Licence. Rateable values are the VOA's assessment of a property's
-      annual rental value, used to calculate business rates bills. We combine this with
-      publicly available Companies House data and our own field verification.
-    </p>
-  </div>
+<section class="about-section">
+  <h2>Where does the data come from?</h2>
+  <p>
+    Rateable values are drawn from the <strong>Valuation Office Agency (VOA)</strong> business rates dataset,
+    which is published as open data by the UK government. Turnover estimates are based on industry averages for
+    nail bars of different sizes in different locations.
+  </p>
+  <p>
+    Data is provided for informational purposes only and is not official financial or legal advice.
+    Rateable values change with revaluations — the most recent was in 2023.
+  </p>
+</section>
 
-  <div class="about-block disclaimer">
-    <h2>⚠️ Disclaimer</h2>
-    <p>
-      This site is for informational purposes only. Data may be out of date, incomplete,
-      or occasionally just wrong — we're doing our best here, not running MI6. Don't
-      make major life decisions based on a Screwed Score. If you run a nail bar and think
-      we've got your info wrong, we'd genuinely love to hear from you.
-    </p>
-    <p>
-      We don't want nail bars to close. We just think people deserve to know what's going on.
-    </p>
-  </div>
-</div>
+<section class="about-section">
+  <h2>Why nail bars?</h2>
+  <p>
+    The nail bar industry has grown rapidly in the UK over the past decade, but many nail bars operate on very
+    slim margins. High-street locations with elevated rateable values can result in annual rates bills that
+    represent a significant proportion of turnover — leaving owners feeling, well, <em>screwed</em>.
+  </p>
+</section>
 
-<div class="back-link">
-  <a href="/" class="btn-secondary">← Back to Search</a>
-</div>
+<section class="about-section">
+  <h2>Contact &amp; feedback</h2>
+  <p>
+    This is an open-source project. Contributions and data corrections are welcome via
+    <a href="https://github.com/osde8info/ismynailbarscrewed" target="_blank" rel="noopener noreferrer">GitHub</a>.
+  </p>
+</section>
 {% endblock %}

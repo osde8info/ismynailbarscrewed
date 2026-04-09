@@ -1,221 +1,103 @@
-name,address,postcode,town,rateable_value,screwed_score,status,last_checked
-Glamour Nails,12 High St,M1 1AE,Manchester,8500,72,At Risk,2024-03-15
-Polish & Pout,45 Market Street,M2 3AB,Manchester,12000,45,Open,2024-03-20
-Nail It,78 Deansgate,M3 4LX,Manchester,9500,63,At Risk,2024-03-18
-Neon Tips,23 Oxford Road,M13 9PL,Manchester,7000,81,Closed,2024-02-28
-The Nail Lounge,5 St Ann's Square,M2 7LP,Manchester,15000,34,Open,2024-03-22
-Acrylic Queens,102 Piccadilly,M1 2BN,Manchester,6500,88,Permanently Closed,2024-01-15
-Pretty Pinkies,33 Arndale Centre,M4 3AQ,Manchester,11000,55,Open,2024-03-19
-Crystal Claws,67 Northern Quarter,M4 1LE,Manchester,8000,69,At Risk,2024-03-10
-Buff & Shine,14 Chorlton St,M1 3HY,Manchester,5500,77,Closed,2024-02-10
-Nail Palace,88 Oldham St,M4 1LW,Manchester,7500,61,At Risk,2024-03-05
-Luxe Nails,22 Oxford Street,W1D 2HQ,London,25000,48,Open,2024-03-21
-Tip Top Nails,156 King's Road,SW3 4UT,London,32000,29,Open,2024-03-22
-Nails & More,89 Brick Lane,E1 6RF,London,18000,67,At Risk,2024-03-12
-Pink Diamond Nails,34 Camden High St,NW1 7JH,London,22000,52,Open,2024-03-20
-The Glam Lab,7 Carnaby Street,W1F 9PW,London,28000,38,Open,2024-03-18
-Stiletto Studio,45 Portobello Rd,W11 2QB,London,19500,71,At Risk,2024-03-09
-Nailtopia,12 Brixton Road,SW9 6BU,London,14000,83,Closed,2024-02-20
-Royal Nails,3 The Mall,SW1A 2AA,London,45000,22,Open,2024-03-23
-Fierce Fingers,201 Hackney Road,E2 7NX,London,16000,76,Closed,2024-02-15
-Velvet Nails,55 Canary Wharf,E14 5AX,London,35000,31,Open,2024-03-22
-Urban Nails,67 New Street,B2 4EU,Birmingham,9000,58,Open,2024-03-17
-Nail Bar Central,23 Bull Ring,B5 4BE,Birmingham,13000,44,Open,2024-03-20
-Prestige Nails,88 Broad Street,B1 2HF,Birmingham,11500,61,At Risk,2024-03-08
-Diamond Tips,45 Corporation St,B2 4LS,Birmingham,8500,74,At Risk,2024-03-02
-Gloss & Go,12 Colmore Row,B3 2BJ,Birmingham,17000,35,Open,2024-03-21
-Nailicious,34 High Street,B4 7SL,Birmingham,6000,85,Permanently Closed,2024-01-20
-The Nail Studio,56 Hagley Road,B16 8PE,Birmingham,9500,67,At Risk,2024-03-11
-Pretty Talons,78 Erdington High St,B23 6RY,Birmingham,5500,79,Closed,2024-02-25
-Shine On Nails,19 Sutton Road,B73 5TL,Birmingham,7000,56,At Risk,2024-03-15
-Glam Central,44 Great Western Rd,B18 7QG,Birmingham,8000,70,Closed,2024-02-18
-Leeds Nails,34 Briggate,LS1 6HD,Leeds,10000,53,Open,2024-03-19
-Polish Pro,12 Merrion Way,LS2 8BT,Leeds,8500,66,At Risk,2024-03-07
-Fabulous Fingers,89 Headingley Lane,LS6 1BL,Leeds,7000,72,Closed,2024-02-22
-The Nail Bar,45 Leeds Rd,LS2 7HY,Leeds,9000,48,Open,2024-03-18
-Tip & Top,23 Vicar Lane,LS1 7JH,Leeds,11000,41,Open,2024-03-20
-Chrome Claws,67 Cross Gates Rd,LS15 7NX,Leeds,5500,84,Permanently Closed,2024-01-10
-Glitterati Nails,14 Kirkgate Market,LS2 7HQ,Leeds,8000,60,At Risk,2024-03-06
-Nail Nirvana,55 Call Lane,LS1 7BT,Leeds,7500,57,Open,2024-03-14
-Flawless Tips,33 Roundhay Rd,LS8 4DW,Leeds,6500,75,Closed,2024-02-12
-Perfectly Polished,78 Otley Road,LS6 4BA,Leeds,9500,43,Open,2024-03-21
-Liverpool Nails,23 Bold Street,L1 4DS,Liverpool,9000,62,At Risk,2024-03-08
-Nails on Mersey,45 Mathew Street,L2 6RE,Liverpool,12000,46,Open,2024-03-19
-The Acrylics Bar,12 Church Street,L1 3AY,Liverpool,10500,55,Open,2024-03-20
-Glam Scouse Nails,78 County Road,L4 3QD,Liverpool,6500,80,Closed,2024-02-08
-Shellac Sisters,34 Allerton Road,L18 6JQ,Liverpool,8000,67,At Risk,2024-03-04
-Diamond Dust Nails,56 Lord Street,L2 1TD,Liverpool,14000,38,Open,2024-03-22
-Neon Nails Liverpool,89 Scotland Road,L5 5AA,Liverpool,5500,86,Permanently Closed,2024-01-25
-Varnish & Vice,23 Lark Lane,L17 8UU,Liverpool,7000,71,At Risk,2024-03-01
-Polished Pearl,45 Smithdown Road,L15 3JQ,Liverpool,8500,58,Open,2024-03-16
-Tip Tastic,12 Wavertree Rd,L7 8TF,Liverpool,6000,77,Closed,2024-02-19
-Bristol Nail Bar,34 Broadmead,BS1 3HB,Bristol,9500,54,Open,2024-03-18
-Coral Nails,12 Park Street,BS1 5JA,Bristol,11000,47,Open,2024-03-20
-Nails Ahoy,67 Clifton Down,BS8 2XP,Bristol,8000,63,At Risk,2024-03-09
-The Lick & Stick,45 Gloucester Rd,BS7 8TL,Bristol,7000,75,Closed,2024-02-14
-Acrylic & Prosecco,23 Stokes Croft,BS1 3QA,Bristol,6500,82,Closed,2024-02-05
-Gloss Boss,88 Whiteladies Road,BS8 2QY,Bristol,9000,56,At Risk,2024-03-12
-Bristol Pink Nails,34 Old Market,BS2 0EJ,Bristol,5500,79,At Risk,2024-03-03
-Sparkle & Shine,56 Bedminster Parade,BS3 4HL,Bristol,7500,64,At Risk,2024-03-07
-Posh Tips,12 Clifton Village,BS8 4AA,Bristol,13000,33,Open,2024-03-21
-Nail It Bristol,78 East Street,BS3 4ET,Bristol,6000,70,Closed,2024-02-21
-Sheffield Nails,45 The Moor,S1 4PF,Sheffield,8500,60,At Risk,2024-03-10
-Steel City Fingers,23 Fargate,S1 2HF,Sheffield,10000,49,Open,2024-03-19
-Cutie Cuticles,67 London Road,S2 4LJ,Sheffield,7000,71,At Risk,2024-03-05
-Blade & Polish,12 Ecclesall Road,S11 8TB,Sheffield,9500,55,Open,2024-03-17
-Glam Sheffield,34 Division Street,S1 4GF,Sheffield,8000,66,At Risk,2024-03-08
-Northern Nails,56 West Street,S1 4EZ,Sheffield,7500,73,Closed,2024-02-16
-Perfectly Filed,78 Abbeydale Road,S7 1FQ,Sheffield,6500,80,Permanently Closed,2024-01-18
-Tip Toe Nails,23 Hillsborough,S6 4AQ,Sheffield,5500,77,Closed,2024-02-25
-Sheffield Polish,45 Pinstone St,S1 2HN,Sheffield,9000,44,Open,2024-03-20
-Chrome & Coffee,12 Devonshire St,S3 7SF,Sheffield,6000,68,At Risk,2024-03-06
-Newcastle Nails,34 Northumberland St,NE1 7DQ,Newcastle,9000,58,Open,2024-03-18
-Tyne & Nails,12 Grey Street,NE1 6EE,Newcastle,11500,43,Open,2024-03-21
-Geordie Glam,67 Grainger Street,NE1 5JQ,Newcastle,8500,65,At Risk,2024-03-09
-Nail Alley,45 Jesmond Rd,NE2 1NH,Newcastle,7500,72,Closed,2024-02-20
-Fab Fingers NE,23 Byker,NE6 1LX,Newcastle,5500,81,Permanently Closed,2024-01-22
-Halo Nails,56 Gosforth High St,NE3 1JE,Newcastle,9500,53,Open,2024-03-16
-Glitter & Graft,78 Dean Street,NE1 1PQ,Newcastle,8000,68,At Risk,2024-03-04
-Nails on Tyne,12 Clayton Street,NE1 5PB,Newcastle,7000,74,Closed,2024-02-11
-Polish Geordie,34 Shields Road,NE6 1DN,Newcastle,6000,78,Closed,2024-02-08
-Perfect Cuticle,45 Fenham,NE4 9HA,Newcastle,7500,60,At Risk,2024-03-13
-Edinburgh Nails,23 Princes Street,EH2 2EQ,Edinburgh,14000,41,Open,2024-03-22
-Scottish Talons,12 Royal Mile,EH1 1SR,Edinburgh,12000,48,Open,2024-03-20
-Bonnie Nails,67 George Street,EH2 2LR,Edinburgh,11000,55,Open,2024-03-17
-Highland Tips,45 Leith Walk,EH6 8LN,Edinburgh,8000,69,At Risk,2024-03-08
-Och Aye Nails,23 Morningside Rd,EH10 4DR,Edinburgh,9500,57,Open,2024-03-14
-Tartan Tips,56 Grassmarket,EH1 2JP,Edinburgh,10000,62,At Risk,2024-03-06
-Nails Caledonia,78 Portobello High,EH15 1DX,Edinburgh,6500,75,Closed,2024-02-17
-The Nail Shed,12 Dalkeith Road,EH16 5BX,Edinburgh,7500,67,At Risk,2024-03-03
-Gloss & Clan,34 Bruntsfield Place,EH10 4HN,Edinburgh,9000,50,Open,2024-03-18
-Edinburgh Polish,45 Newington Rd,EH9 1QR,Edinburgh,8500,63,At Risk,2024-03-11
-Cardiff Nails,23 Queen Street,CF10 2BU,Cardiff,9000,57,Open,2024-03-17
-Welsh Talons,12 St Mary St,CF10 1AD,Cardiff,10500,46,Open,2024-03-21
-Dragon Nails,67 Albany Road,CF24 3RQ,Cardiff,7500,68,At Risk,2024-03-07
-Nails Cymru,45 Whitchurch Rd,CF14 3LX,Cardiff,8000,71,Closed,2024-02-23
-Scarlet Nails,23 City Road,CF24 3BN,Cardiff,6500,79,At Risk,2024-03-02
-The Nail Daffodil,56 Cowbridge Rd East,CF11 9AB,Cardiff,9500,54,Open,2024-03-15
-Gwynedd Tips,78 Newport Road,CF24 1RJ,Cardiff,7000,73,Closed,2024-02-13
-Polish Cariad,12 Crwys Road,CF24 4NN,Cardiff,6000,82,Permanently Closed,2024-01-28
-Bay Nails,34 Roath Park Rd,CF23 5AU,Cardiff,8500,60,At Risk,2024-03-09
-Cardiff Chrome,45 Splott Rd,CF24 2BZ,Cardiff,5500,77,Closed,2024-02-19
-Nottingham Nails,23 Clumber Street,NG1 3ED,Nottingham,8500,62,At Risk,2024-03-10
-Lace Market Nails,12 Hockley,NG1 1FH,Nottingham,9000,55,Open,2024-03-18
-Forest Tips,67 Mansfield Road,NG1 3FB,Nottingham,7500,70,At Risk,2024-03-05
-Nails on Trent,45 Derby Road,NG7 1LN,Nottingham,8000,65,At Risk,2024-03-08
-Glam Nottingham,23 Upper Parliament St,NG1 2BN,Nottingham,10500,47,Open,2024-03-20
-Cherry Tips,56 Ilkeston Road,NG7 3GX,Nottingham,6500,76,Closed,2024-02-22
-Notts Nails,78 Carlton Street,NG4 3AU,Nottingham,5500,83,Permanently Closed,2024-01-15
-Powder Room Nails,12 West Bridgford,NG2 7AA,Nottingham,9500,51,Open,2024-03-16
-Trent Talons,34 Beeston,NG9 1LP,Nottingham,7000,68,At Risk,2024-03-04
-Nail Nirvana NG,45 Sneinton Dale,NG2 4LB,Nottingham,6000,74,Closed,2024-02-16
-Glasgow Nails,23 Sauchiehall St,G2 3DH,Glasgow,11000,58,Open,2024-03-17
-West End Nails,12 Byres Road,G11 5HN,Glasgow,12500,44,Open,2024-03-21
-Clyde Claws,67 Argyle Street,G2 8DL,Glasgow,9500,64,At Risk,2024-03-08
-Tartan Tips GLA,45 Great Western Rd,G12 8HH,Glasgow,10000,56,Open,2024-03-14
-Nails of the North,23 Pollokshaws Rd,G41 1QA,Glasgow,7500,71,At Risk,2024-03-03
-Glam Govan,56 Govan Road,G51 1JS,Glasgow,6000,80,Permanently Closed,2024-01-20
-Fab Fingers GLA,78 Duke Street,G4 0TT,Glasgow,8500,66,At Risk,2024-03-07
-Clydeside Chrome,12 Shawlands Arcade,G43 1RW,Glasgow,7000,72,Closed,2024-02-18
-Glasgow Polish,34 Partick,G11 6HT,Glasgow,8000,60,At Risk,2024-03-11
-Celtic Nails,45 Maryhill Rd,G20 7EF,Glasgow,5500,78,Closed,2024-02-09
-Brighton Nails,23 Western Road,BN1 2LB,Brighton,9500,52,Open,2024-03-19
-Seafront Stilettos,12 North Street,BN1 1RH,Brighton,11000,45,Open,2024-03-21
-Seaside Polish,67 Church Road,BN3 2BS,Brighton,8500,60,At Risk,2024-03-09
-The Lemon Nails,45 St James's St,BN2 1RG,Brighton,7000,73,Closed,2024-02-21
-Neon Brighton,23 Queens Road,BN1 3XB,Brighton,9000,56,Open,2024-03-15
-Punk Tips,56 Gardner Street,BN1 1UP,Brighton,6500,79,At Risk,2024-03-02
-Brighton Polish,78 Preston Road,BN1 6AF,Brighton,7500,68,At Risk,2024-03-06
-Chrome on Sea,12 Kemp Town,BN2 1HA,Brighton,8000,64,At Risk,2024-03-10
-Bohemian Nails,34 London Road,BN1 6QG,Brighton,6000,77,Closed,2024-02-14
-Gloss & Gull,45 Hove Park Rd,BN3 6LT,Brighton,10000,41,Open,2024-03-22
-Leicester Nails,23 Granby Street,LE1 6EH,Leicester,8000,63,At Risk,2024-03-08
-Tiger Talons,12 High Street,LE1 5YP,Leicester,9500,50,Open,2024-03-18
-Narborough Nails,67 Narborough Rd,LE3 0TL,Leicester,6500,74,Closed,2024-02-20
-Polish Lion,45 Belgrave Road,LE4 6AR,Leicester,7500,69,At Risk,2024-03-05
-Glam Leicester,23 Haymarket,LE1 3LB,Leicester,10500,46,Open,2024-03-21
-East Midlands Tips,56 Uppingham Rd,LE5 0SD,Leicester,5500,81,Permanently Closed,2024-01-24
-Nails de Montfort,78 Welford Road,LE2 7AE,Leicester,8500,58,Open,2024-03-14
-Ruby Nails,12 Market Street,LE1 6DU,Leicester,7000,71,At Risk,2024-03-03
-Peacock Polish,34 Charles Street,LE1 3SH,Leicester,9000,54,Open,2024-03-17
-Fenland Fingers,45 Humberstone Rd,LE5 3GH,Leicester,6000,76,Closed,2024-02-12
-Coventry Nails,23 Broadgate,CV1 1LT,Coventry,8000,65,At Risk,2024-03-07
-Lady Godiva Nails,12 High Street,CV1 5RE,Coventry,9000,52,Open,2024-03-18
-Midlands Manicure,67 Hertford Street,CV1 1LF,Coventry,7500,70,At Risk,2024-03-04
-Coventry Chrome,45 Foleshill Rd,CV1 4JB,Coventry,6000,78,Closed,2024-02-16
-Nails & Cathedral,23 Much Park Street,CV1 2LT,Coventry,10000,44,Open,2024-03-21
-Glitter City Nails,56 Spon Street,CV1 3BA,Coventry,5500,83,Permanently Closed,2024-01-11
-Fabulous CV,78 Earlsdon Ave,CV5 6GJ,Coventry,8500,59,Open,2024-03-15
-Sparkle Midlands,12 Holyhead Road,CV1 3AQ,Coventry,7000,72,Closed,2024-02-23
-Two Tone Tips,34 Longford Road,CV6 6BA,Coventry,6500,67,At Risk,2024-03-09
-City of Nails,45 Binley Road,CV3 1JJ,Coventry,7500,61,At Risk,2024-03-12
-Portsmouth Nails,23 Commercial Road,PO1 1EL,Portsmouth,8000,63,At Risk,2024-03-08
-Pompey Polish,12 Palmerston Road,PO5 3QJ,Portsmouth,9500,49,Open,2024-03-19
-Harbour Tips,67 London Road,PO2 0BH,Portsmouth,7000,72,Closed,2024-02-22
-HMS Nails,45 Fratton Road,PO1 5EA,Portsmouth,6500,76,At Risk,2024-03-03
-Southsea Stilettos,23 Albert Road,PO4 0JR,Portsmouth,8500,57,Open,2024-03-16
-Nails & Ale,56 Cosham High St,PO6 3BH,Portsmouth,5500,80,Permanently Closed,2024-01-19
-Port Glam,78 Elm Grove,PO5 1JF,Portsmouth,7500,65,At Risk,2024-03-07
-Spinnaker Tips,12 Gunwharf Quays,PO1 3TZ,Portsmouth,12000,35,Open,2024-03-21
-Solent Nails,34 Kingston Road,PO2 7DT,Portsmouth,6000,74,Closed,2024-02-14
-Portsmouth Polish,45 Highland Road,PO4 9DH,Portsmouth,7000,68,At Risk,2024-03-10
-Oxford Nails,23 Cornmarket St,OX1 3HB,Oxford,11000,46,Open,2024-03-20
-Dreaming Spires Nails,12 High Street,OX1 4BZ,Oxford,13000,38,Open,2024-03-22
-Bodleian Tips,67 Cowley Road,OX4 1HP,Oxford,8000,66,At Risk,2024-03-08
-Nails of the Thames,45 Banbury Road,OX2 6PE,Oxford,9500,53,Open,2024-03-16
-Glam Oxon,23 St Clements,OX4 1AH,Oxford,7500,70,At Risk,2024-03-05
-Academic Acrylics,56 Woodstock Rd,OX2 6HT,Oxford,10000,50,Open,2024-03-18
-Cherwell Chrome,78 Iffley Road,OX4 1EG,Oxford,6500,73,Closed,2024-02-20
-Oxford Polish,12 London Road,OX3 9AG,Oxford,7000,67,At Risk,2024-03-06
-Scholar Tips,34 Headington Rd,OX3 7PB,Oxford,8500,60,At Risk,2024-03-12
-Radcliffe Nails,45 Jericho St,OX2 6EL,Oxford,9000,55,Open,2024-03-17
-Exeter Nails,23 High Street,EX1 3EL,Exeter,8500,61,At Risk,2024-03-09
-Devon Talons,12 Fore Street,EX1 1HB,Exeter,9000,48,Open,2024-03-19
-Cathedral Claws,67 Sidwell Street,EX4 6NN,Exeter,7500,67,At Risk,2024-03-06
-Westcountry Polish,45 Heavitree Road,EX1 2LQ,Exeter,7000,72,Closed,2024-02-18
-Nails on Exe,23 Pinhoe Road,EX4 7HJ,Exeter,6000,78,At Risk,2024-03-02
-Glam Devon,56 Magdalen Road,EX2 4TA,Exeter,8000,64,At Risk,2024-03-08
-Cream Tea Tips,78 Cowick Street,EX4 1AJ,Exeter,5500,82,Permanently Closed,2024-01-16
-Dartmoor Digits,12 Bonhay Road,EX4 4BH,Exeter,7000,69,Closed,2024-02-24
-Exe Nails,34 Pennsylvania Road,EX4 6BQ,Exeter,9500,52,Open,2024-03-17
-South West Shine,45 St David's Hill,EX4 4DY,Exeter,8000,58,Open,2024-03-14
-York Nails,23 Stonegate,YO1 8AN,York,10000,48,Open,2024-03-20
-Viking Tips,12 Goodramgate,YO1 7LF,York,9000,54,Open,2024-03-17
-Shambles Nails,67 The Shambles,YO1 7LX,York,11000,42,Open,2024-03-21
-Minster Manicure,45 Gillygate,YO31 7EA,York,7500,65,At Risk,2024-03-08
-York Polish,23 Micklegate,YO1 6JH,York,8500,58,Open,2024-03-15
-Jorvik Nails,56 Walmgate,YO1 9XA,York,7000,71,At Risk,2024-03-04
-Roman Tips,78 Bishopthorpe Rd,YO23 1JJ,York,6500,74,Closed,2024-02-19
-Ouse Nails,12 Skeldergate,YO1 6DH,York,8000,62,At Risk,2024-03-10
-Nails & Minster,34 Clarence Street,YO31 7EY,York,9500,50,Open,2024-03-18
-York Chrome,45 Heworth Green,YO31 7TQ,York,6000,76,Closed,2024-02-15
-Southampton Nails,23 Above Bar Street,SO14 7DU,Southampton,9000,60,At Risk,2024-03-09
-Solent Stilettos,12 High Street,SO14 2DH,Southampton,10500,47,Open,2024-03-20
-HMS Polish,67 London Road,SO15 2AE,Southampton,8000,67,At Risk,2024-03-06
-Waterfront Tips,45 Portswood Rd,SO17 2DL,Southampton,7500,71,At Risk,2024-03-03
-Nails of the South,23 Bedford Place,SO15 2DB,Southampton,9500,53,Open,2024-03-16
-Glam Saints,56 Shirley High St,SO15 3EE,Southampton,6500,77,Closed,2024-02-21
-Dockland Digits,78 Woolston High St,SO19 9DE,Southampton,5500,82,Permanently Closed,2024-01-22
-Ocean Nails,12 St Denys Rd,SO17 2GN,Southampton,7000,69,At Risk,2024-03-07
-Mayflower Manicure,34 Winchester Rd,SO16 6TR,Southampton,8500,57,Open,2024-03-14
-Port City Nails,45 Northam Road,SO14 0NG,Southampton,6000,73,Closed,2024-02-17
-Norwich Nails,23 Gentleman's Walk,NR2 1ND,Norwich,8500,59,Open,2024-03-18
-Norfolk Tips,12 Castle Street,NR2 1PB,Norwich,9000,53,Open,2024-03-20
-Cathedral Nails,67 St Benedicts St,NR2 4AB,Norwich,7500,66,At Risk,2024-03-07
-Mustard Nails,45 Unthank Road,NR2 2PD,Norwich,7000,72,Closed,2024-02-20
-Broads Polish,23 Prince of Wales Rd,NR1 1DX,Norwich,10000,46,Open,2024-03-21
-Norfolk Glam,56 Magdalen Street,NR3 1JH,Norwich,6500,75,At Risk,2024-03-03
-Norwich Chrome,78 Ber Street,NR1 3EJ,Norwich,5500,81,Permanently Closed,2024-01-17
-Wensum Nails,12 King Street,NR1 1PH,Norwich,7500,64,At Risk,2024-03-09
-Anglia Tips,34 Newmarket Road,NR2 2LA,Norwich,8000,58,Open,2024-03-15
-Golden Nails,45 Dereham Road,NR2 4AY,Norwich,6000,70,Closed,2024-02-13
-Reading Nails,23 Broad Street,RG1 2BH,Reading,9500,55,Open,2024-03-17
-Thames Valley Tips,12 Friar Street,RG1 1EP,Reading,11000,44,Open,2024-03-21
-Berkshire Nails,67 Oxford Road,RG1 7LT,Reading,8000,64,At Risk,2024-03-08
-Oracle Nails,45 The Oracle Centre,RG1 2AG,Reading,14000,36,Open,2024-03-22
-Nails & Biscuits,23 London Road,RG1 5BJ,Reading,7500,70,At Risk,2024-03-04
-Glam Berkshire,56 Caversham Rd,RG1 8AA,Reading,6500,76,Closed,2024-02-22
-Reading Polish,78 Tilehurst Road,RG30 2ND,Reading,5500,83,Permanently Closed,2024-01-12
-Kennet Nails,12 Wokingham Rd,RG6 1JL,Reading,7000,67,At Risk,2024-03-06
-Thames Tips,34 Vastern Road,RG1 8BX,Reading,8500,58,Open,2024-03-14
-Silicon Nails,45 Earley High St,RG6 5HY,Reading,9000,50,Open,2024-03-19
+name,address,postcode,rateable_value,estimated_turnover,screwed_score,region,town,lat,lon
+Glamour Nails,12 High Street,SW1A 1AA,42000,38000,110,London,Westminster,51.5014,-0.1419
+Pink Petal Nails,45 Oxford Street,W1D 1BS,68000,55000,124,London,Westminster,51.5152,-0.1418
+Nail Heaven,3 King Street,EC2V 8AS,29000,31000,94,London,City of London,51.5148,-0.0943
+Pretty Claws,78 Victoria Street,SW1E 6QQ,55000,42000,131,London,Westminster,51.4978,-0.1421
+Nail Bar Express,22 Brixton Road,SW9 6BU,18500,22000,84,London,Lambeth,51.4613,-0.1143
+Luxe Nails,100 Kings Road,SW3 4TZ,72000,58000,124,London,Chelsea,51.4882,-0.1701
+Crystal Nails,5 Green Lane,N13 4JA,12000,18000,67,London,Enfield,51.6248,-0.1074
+Nail Studio,34 Tottenham Court Rd,W1T 2EL,45000,40000,113,London,Camden,51.5208,-0.1341
+The Nail Place,8 Camden High St,NW1 0JH,38000,35000,109,London,Camden,51.5393,-0.1426
+Sparkle Nails,15 Islington High St,N1 9LQ,31000,28000,111,London,Islington,51.5362,-0.1042
+Top Coat Nails,67 Hackney Road,E2 7NX,22000,25000,88,London,Hackney,51.5281,-0.0724
+Nail Boutique,9 Chiswick High Rd,W4 1LY,28000,32000,88,London,Hounslow,51.4956,-0.2683
+Glitter Nails,44 Streatham High Rd,SW16 1BY,16000,20000,80,London,Lambeth,51.4279,-0.1248
+Diamond Nails,23 Bromley High St,BR1 1EX,20000,24000,83,London,Bromley,51.4056,-0.0133
+Pure Nails,88 Croydon High St,CR0 1QU,15000,19000,79,London,Croydon,51.3762,-0.0982
+Neon Nails,7 Clapham High St,SW4 7TS,34000,29000,117,London,Lambeth,51.4628,-0.1384
+The Nail Bar,14 Wimbledon High St,SW19 5DX,41000,37000,111,London,Merton,51.4214,-0.2076
+Velvet Nails,3 Richmond Road,TW10 6QX,26000,30000,87,London,Richmond,51.4636,-0.3038
+Elite Nails,55 Notting Hill Gate,W11 3HX,63000,52000,121,London,Kensington,51.5090,-0.1977
+Nail Garden,18 Stoke Newington Church St,N16 0LU,24000,27000,89,London,Hackney,51.5625,-0.0766
+Royal Nails,1 Deansgate,M3 2BW,35000,31000,113,Manchester,Manchester,53.4791,-2.2478
+Pink Rose Nails,25 Market Street,M1 1PW,28000,26000,108,Manchester,Manchester,53.4831,-2.2385
+Nail Lounge,7 Oldham Street,M1 1JE,18000,22000,82,Manchester,Manchester,53.4836,-2.2333
+Chic Nails,30 Piccadilly,M1 1HP,42000,36000,117,Manchester,Manchester,53.4808,-2.2374
+Gloss Nails,12 Oxford Road,M1 5QA,25000,28000,89,Manchester,Manchester,53.4739,-2.2346
+Urban Nails,5 Northern Quarter,M4 1DA,20000,24000,83,Manchester,Manchester,53.4854,-2.2359
+Nail Haven,88 Wilmslow Road,M20 3BW,16000,19000,84,Manchester,Didsbury,53.4124,-2.2197
+Gold Nails,44 Lord Street,L2 1TD,22000,24000,92,Liverpool,Liverpool,53.4058,-2.9869
+Nail Palace,15 Bold Street,L1 4DN,18000,20000,90,Liverpool,Liverpool,53.4014,-2.9804
+Prestige Nails,6 Church Street,L1 3BG,30000,27000,111,Liverpool,Liverpool,53.4075,-2.9797
+Fabulous Nails,99 Park Row,LS1 5HN,28000,25000,112,Leeds,Leeds,53.7975,-1.5492
+Nail Vision,22 Briggate,LS1 6EQ,38000,33000,115,Leeds,Leeds,53.7980,-1.5412
+La Belle Nails,8 Albion Street,LS1 6JL,31000,29000,107,Leeds,Leeds,53.7967,-1.5452
+Coral Nails,45 The Headrow,LS1 6PT,26000,28000,93,Leeds,Leeds,53.7997,-1.5497
+Cute Nails,17 New Street,B2 4RL,35000,30000,117,Birmingham,Birmingham,52.4800,-1.8990
+Glam Nails,5 Corporation Street,B4 6QQ,42000,37000,114,Birmingham,Birmingham,52.4823,-1.8943
+Nail Dreams,28 High Street,B4 7SL,24000,26000,92,Birmingham,Birmingham,52.4782,-1.8959
+Noir Nails,3 Colmore Row,B3 2DA,55000,46000,120,Birmingham,Birmingham,52.4835,-1.8979
+Pearl Nails,67 Broad Street,B1 2HF,38000,34000,112,Birmingham,Birmingham,52.4757,-1.9085
+Silk Nails,14 Union Street,AB11 5BU,16000,18000,89,Aberdeen,Aberdeen,57.1497,-2.0943
+Highland Nails,5 George Street,AB25 1HZ,14000,17000,82,Aberdeen,Aberdeen,57.1503,-2.1006
+Pinky Nails,8 Princes Street,EH2 2ER,45000,38000,118,Edinburgh,Edinburgh,55.9524,-3.1894
+Nail Art Studio,22 Royal Mile,EH1 1QG,38000,34000,112,Edinburgh,Edinburgh,55.9496,-3.1910
+Polished Nails,10 Buchanan Street,G1 3HJ,40000,36000,111,Glasgow,Glasgow,55.8623,-4.2517
+Gel Nails Plus,33 Sauchiehall Street,G2 3AT,28000,25000,112,Glasgow,Glasgow,55.8651,-4.2619
+The Nail Hut,7 Queen Street,CF10 2BY,22000,24000,92,Cardiff,Cardiff,51.4798,-3.1792
+Cardiff Nails,15 St Mary Street,CF10 1AA,30000,27000,111,Cardiff,Cardiff,51.4773,-3.1781
+Glamourous Nails,18 Northgate,CH1 2HT,18000,20000,90,Chester,Chester,53.1906,-2.8913
+Chester Nails,3 Eastgate Street,CH1 1LG,24000,22000,109,Chester,Chester,53.1906,-2.8888
+Brilliant Nails,12 Stonegate,YO1 8AS,20000,22000,91,York,York,53.9614,-1.0814
+York Nail Bar,5 Goodramgate,YO1 7LG,15000,18000,83,York,York,53.9622,-1.0804
+Nail Perfection,8 Queen Street,OX1 1ET,32000,28000,114,Oxford,Oxford,51.7513,-1.2580
+Oxford Nails,23 George Street,OX1 2AU,28000,26000,108,Oxford,Oxford,51.7527,-1.2590
+Cambridge Nails,17 King Street,CB1 1LH,30000,27000,111,Cambridge,Cambridge,52.2053,0.1218
+Varsity Nails,4 Sidney Street,CB2 3HQ,25000,24000,104,Cambridge,Cambridge,52.2050,0.1198
+Nail Therapy,9 Winchester High St,SO23 9GH,22000,23000,96,Winchester,Winchester,51.0635,-1.3116
+Brighton Nails,33 North Street,BN1 1RH,38000,32000,119,Brighton,Brighton,50.8218,-0.1400
+Seaside Nails,6 West Street,BN1 2RD,28000,26000,108,Brighton,Brighton,50.8224,-0.1437
+Royal Pavilion Nails,15 Old Steine,BN1 1EJ,22000,25000,88,Brighton,Brighton,50.8229,-0.1369
+Bath Nails,10 Milsom Street,BA1 1DD,35000,30000,117,Bath,Bath,51.3835,-2.3627
+Roman Nails,7 Bath Street,BA1 1SN,28000,26000,108,Bath,Bath,51.3803,-2.3618
+Nail Emporium,14 High Street,EX4 3LN,18000,20000,90,Exeter,Exeter,50.7236,-3.5275
+Exeter Nails,3 Gandy Street,EX4 3LS,15000,17000,88,Exeter,Exeter,50.7228,-3.5303
+Harbour Nails,22 Fore Street,PL1 1JU,20000,22000,91,Plymouth,Plymouth,50.3714,-4.1427
+Plymouth Nails,8 Cornwall Street,PL1 1NJ,18000,21000,86,Plymouth,Plymouth,50.3712,-4.1441
+Bristol Nails,5 Broadmead,BS1 3EE,42000,36000,117,Bristol,Bristol,51.4569,-2.5912
+Clifton Nails,18 Queens Road,BS8 1QU,35000,31000,113,Bristol,Bristol,51.4576,-2.6135
+Harbour Nails Bristol,7 Harbourside,BS1 5TY,28000,27000,104,Bristol,Bristol,51.4501,-2.5973
+Nottingham Nails,12 Bridlesmith Gate,NG1 2GS,30000,27000,111,Nottingham,Nottingham,52.9536,-1.1457
+Lace Market Nails,5 High Pavement,NG1 1HF,22000,24000,92,Nottingham,Nottingham,52.9522,-1.1462
+Sheffield Nails,8 Fargate,S1 2HE,28000,26000,108,Sheffield,Sheffield,53.3818,-1.4684
+Steel City Nails,25 Division Street,S1 4GF,22000,24000,92,Sheffield,Sheffield,53.3793,-1.4726
+Coventry Nails,11 Broadgate,CV1 1NG,25000,23000,109,Coventry,Coventry,52.4072,-1.5100
+Cathedral Nails,3 Priory Row,CV1 5EX,18000,20000,90,Coventry,Coventry,52.4071,-1.5113
+Norwich Nails,14 London Street,NR2 1JD,22000,24000,92,Norwich,Norwich,52.6285,1.2940
+Castle Nails,7 Castle Meadow,NR1 3DD,18000,21000,86,Norwich,Norwich,52.6268,1.2966
+Leicester Nails,5 Gallowtree Gate,LE1 1DD,28000,25000,112,Leicester,Leicester,52.6361,-1.1316
+Highcross Nails,12 Haymarket,LE1 3GD,22000,24000,92,Leicester,Leicester,52.6383,-1.1350
+Newcastle Nails,10 Northumberland Street,NE1 7DQ,35000,30000,117,Newcastle,Newcastle,54.9759,-1.6131
+Quayside Nails,6 Quayside,NE1 3DX,28000,26000,108,Newcastle,Newcastle,54.9690,-1.6104
+Grainger Nails,18 Grainger Street,NE1 5JQ,22000,24000,92,Newcastle,Newcastle,54.9720,-1.6178
+Derby Nails,9 Sadler Gate,DE1 3NQ,20000,22000,91,Derby,Derby,52.9225,-1.4765
+Sunderland Nails,4 High Street West,SR1 3EX,15000,18000,83,Sunderland,Sunderland,54.9062,-1.3829
+Stoke Nails,7 Stafford Street,ST1 1NA,16000,18000,89,Stoke,Stoke-on-Trent,53.0284,-2.1794
+Wolverhampton Nails,12 Dudley Street,WV1 3ER,20000,22000,91,Wolverhampton,Wolverhampton,52.5847,-2.1277
+Nail Culture,45 Commercial Road,E1 1LG,32000,28000,114,London,Tower Hamlets,51.5149,-0.0593
+East End Nails,8 Roman Road,E2 0HU,18000,20000,90,London,Tower Hamlets,51.5267,-0.0437
+Canary Nails,3 Canary Wharf,E14 5AB,58000,48000,121,London,Tower Hamlets,51.5051,-0.0210
+Docklands Nails,15 West India Quay,E14 4AJ,42000,37000,114,London,Tower Hamlets,51.5074,-0.0199
+Marylebone Nails,20 Marylebone High St,W1U 4PL,65000,53000,123,London,Westminster,51.5190,-0.1489
+Mayfair Nails,5 Bond Street,W1S 1SB,88000,68000,129,London,Westminster,51.5130,-0.1446
+Knightsbridge Nails,12 Brompton Road,SW3 1ER,95000,72000,132,London,Kensington,51.4990,-0.1622
+Belgravia Nails,7 Eaton Square,SW1W 9BE,78000,60000,130,London,Westminster,51.4966,-0.1555
+Soho Nails,33 Old Compton Street,W1D 5JR,72000,58000,124,London,Westminster,51.5132,-0.1302
+Covent Garden Nails,4 Neal Street,WC2H 9PR,68000,55000,124,London,Camden,51.5130,-0.1246
+Fitzrovia Nails,10 Charlotte Street,W1T 2LS,52000,44000,118,London,Camden,51.5194,-0.1336
+Bloomsbury Nails,8 Marchmont Street,WC1N 1AB,38000,34000,112,London,Camden,51.5248,-0.1242
+Shoreditch Nails,22 Shoreditch High St,E1 6PG,45000,39000,115,London,Hackney,51.5228,-0.0772
+Hoxton Nails,7 Hoxton Square,N1 6PB,35000,32000,109,London,Hackney,51.5300,-0.0820
+Dalston Nails,18 Kingsland High St,E8 2NS,22000,24000,92,London,Hackney,51.5484,-0.0762
+Peckham Nails,5 Peckham High St,SE15 5EB,16000,19000,84,London,Southwark,51.4739,-0.0693
+Brixton Nails,40 Atlantic Road,SW9 8JA,20000,22000,91,London,Lambeth,51.4624,-0.1137

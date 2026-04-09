@@ -1,12 +1,8 @@
 {% extends "layout.html" %}
-
-{% block title %}Leaderboard – Is My Nail Bar Screwed? 💅{% endblock %}
-
+{% block title %}Leaderboard — Most Screwed Nail Bars in the UK{% endblock %}
 {% block content %}
-<div class="page-header">
-  <h1>💀 Most Screwed Nail Bars</h1>
-  <p class="page-sub">The top 20 nail bars hanging on by their acrylic nails</p>
-</div>
+<h1>🏆 Most Screwed Nail Bars in the UK</h1>
+<p class="subtitle">Top 100 nail bars ranked by Screwed Score — the higher the score, the more they're getting hammered by business rates.</p>
 
 <div class="table-wrapper">
   <table class="leaderboard-table">
@@ -15,33 +11,25 @@
         <th>#</th>
         <th>Name</th>
         <th>Town</th>
-        <th>Status</th>
+        <th>Postcode</th>
+        <th>Rateable Value</th>
         <th>Screwed Score</th>
+        <th>Status</th>
       </tr>
     </thead>
     <tbody>
-      {% for bar in leaderboard %}
-      <tr>
-        <td class="rank">{{ loop.index }}</td>
-        <td class="bar-name">{{ bar.name }}</td>
-        <td>{{ bar.town }}</td>
-        <td>
-          <span class="status-badge status-{{ bar.status | lower | replace(' ', '-') }}">
-            {{ bar.status }}
-          </span>
-        </td>
-        <td>
-          <span class="score-pill score-{{ 'high' if bar.screwed_score >= 75 else ('mid' if bar.screwed_score >= 50 else 'low') }}">
-            {{ bar.screwed_score }}
-          </span>
-        </td>
+      {% for row in rows %}
+      <tr class="row-{{ row.badge }}">
+        <td class="rank">{{ row.rank }}</td>
+        <td class="name">{{ row.name }}</td>
+        <td>{{ row.town }}</td>
+        <td><code>{{ row.postcode }}</code></td>
+        <td>£{{ "{:,}".format(row.rateable_value) }}</td>
+        <td class="score score-{{ row.badge }}"><strong>{{ row.screwed_score }}</strong></td>
+        <td><span class="badge badge-{{ row.badge }}">{{ row.label }}</span></td>
       </tr>
       {% endfor %}
     </tbody>
   </table>
-</div>
-
-<div class="back-link">
-  <a href="/" class="btn-secondary">← Back to Search</a>
 </div>
 {% endblock %}
